@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "aws_training"
+version = "0.1.0"
+description = "training scripts for ec2"
+authors = ["krzem <lech.krzeminski@renderro.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+boto3 = "^1.17.97"
+pyboto3 = "^1.13.18"
+botostubs = "^0.14.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
